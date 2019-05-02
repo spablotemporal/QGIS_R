@@ -4,10 +4,11 @@ Once the Processing R provider plug in is set, you must load the [scripts](Scrip
 
 # Spatial Statistics Tools:
 
-* Calculate Distance Band
-* Incremental Morans I
-* Morans I
-* Ripleys K
+* Average Nearest Neighbor
+* Distance Band From Neighbor
+* Incremental Spatial Autocorrelation
+* Spatial Autocorrelation
+* Ripleys K (Not working yet)
 
 # Data Manipulation:
 
