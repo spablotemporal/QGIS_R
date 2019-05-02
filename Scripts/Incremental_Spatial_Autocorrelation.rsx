@@ -1,15 +1,15 @@
 ##Spatial Statistics Tools = group
 ##Layer=vector
 ##Field=Field Layer
-##From = number
-##N = number
-##Increment = number
+##Begining_Distance = number
+##Steps = number
+##Distance_Increment = number
 ##showplots
 ##DataFrame = Output Table
 require(sp)
 library(spdep)
 
-  NDB <- c(From, From + Increment*1:N)
+  NDB <- c(Begining_Distance, Begining_Distance + Distance_Increment*1:Steps)
   DF <- data.frame(Distance = 0, I = 0, z = 0, p = 0)
   for (i in NDB) {
   wd <- dnearneigh(coordinates(Layer), 0, i)
@@ -19,7 +19,7 @@ library(spdep)
   DF <- rbind(DF, DFi)
   }
 DF <- DF[-1,]
-  DataFrame <- data.frame(round(DF,4), row.names = 0:N)
+  DataFrame <- data.frame(round(DF,4), row.names = 0:Steps)
 plot(z~Distance, data = DF, type = "l", ylab = "Z Score", main = "Spatial Autocorrelation by Distance")
 grid(NA, 5, lwd = 2)
 points(z~Distance, data = DF[DF$z == max(DF$z),], col = "cadetblue4", cex = 2.3, lwd = 3)
