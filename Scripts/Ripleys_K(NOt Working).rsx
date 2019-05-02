@@ -1,4 +1,4 @@
-##Geospatial = group
+####Spatial Statistics Tools = group
 ##Layer = vector
 ##Area = vector
 ##DataFrame = Output Table

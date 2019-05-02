@@ -1,4 +1,4 @@
-##Trasformation = group
+##Data Manipulation = group
 ##Layer=vector
 ##Field=Field Layer
 ##Aggregate_Output= output vector

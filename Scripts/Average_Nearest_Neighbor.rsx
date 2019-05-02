@@ -1,4 +1,4 @@
-##Geospatial = group
+####Spatial Statistics Tools = group
 ##Layer = vector
 ##Area = vector
 ##NN_Mean_Distance_DF = Output Table

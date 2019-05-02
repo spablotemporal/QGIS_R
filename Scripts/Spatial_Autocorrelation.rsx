@@ -1,4 +1,4 @@
-##Geospatial = group
+####Spatial Statistics Tools = group
 ##Layer=vector
 ##Field=Field Layer
 ##Morans_I_DF = Output Table

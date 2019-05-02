@@ -1,4 +1,4 @@
-##Geospatial = group
+##Spatial Statistics Tools = group
 ##Layer = vector
 ##Distance_Band_DF = Output Table
 require(sf)
