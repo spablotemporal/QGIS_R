@@ -6,7 +6,7 @@ Once the Processing R provider plug in is set, you must load the [scripts](Scrip
 
 * Average Nearest Neighbor
 * Distance Band From Neighbor
-* [Incremental Spatial Autocorrelation](Scripts/Documentation/Incremental Spatial Autocorrelation.html)
+* [Incremental Spatial Autocorrelation](Scripts/Documentation/Incremental_Spatial_Autocorrelation.md)
 * Spatial Autocorrelation
 * Ripleys K (Not working yet)
 
