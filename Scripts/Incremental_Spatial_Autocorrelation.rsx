@@ -5,7 +5,7 @@
 ##Steps = number
 ##Distance_Increment = number
 ##showplots
-##DataFrame = Output Table
+##Incremental_Morans_I = Output Table
 require(sp)
 library(spdep)
 
@@ -19,7 +19,7 @@ library(spdep)
   DF <- rbind(DF, DFi)
   }
 DF <- DF[-1,]
-  DataFrame <- data.frame(round(DF,4), row.names = 0:Steps)
+  Incremental_Morans_I <- data.frame(round(DF,4), row.names = 0:Steps)
 plot(z~Distance, data = DF, type = "l", ylab = "Z Score", main = "Spatial Autocorrelation by Distance")
 grid(NA, 5, lwd = 2)
 points(z~Distance, data = DF[DF$z == max(DF$z),], col = "cadetblue4", cex = 2.3, lwd = 3)

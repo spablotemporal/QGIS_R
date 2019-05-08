@@ -2,6 +2,7 @@
 ##Layer = vector
 ##Area = vector
 ##DataFrame = Output Table
+##showplots
 
 library(spatstat)
 Crds <- unique(coordinates(Layer))
