@@ -24,7 +24,7 @@ In the options window you have to make sure that the R folder is set up where R 
 
 <img src="Scripts/Documentation/Images/Intro05.png" alt="Img05"/>
 
-Once that everything is set up you will see a new icon in the processing tooldbox menu and also the new R scripts section. You have to copy the scripts on the R scripts folder and then you will be able to see them in the R section of the processing toolbox
+Once that everything is set up you will see a new icon in the processing toolbox menu and also the new R scripts section. You have to copy the scripts on the R scripts folder and then you will be able to see them in the R section of the processing toolbox
 
 
 # Spatial Statistics Tools:
@@ -33,7 +33,9 @@ Once that everything is set up you will see a new icon in the processing tooldbo
 * Distance Band From Neighbor
 * [Incremental Spatial Autocorrelation](Scripts/Documentation/Incremental_Spatial_Autocorrelation.md)
 * Spatial Autocorrelation
-* Ripleys K (Not working yet)
+* Ripleys K
+* Local Moran's I
+* [Hot Spot Analysis (Getis-Ord G*)](Scripts/Documentation/Hot_Spot_Analysis_Getis_Ord.md)
 
 # Data Manipulation:
 
