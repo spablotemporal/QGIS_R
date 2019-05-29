@@ -1,5 +1,4 @@
 # Introduction
-/play sax  
 This is a set of R scripts for QGIS. must have [QGIS 3.4](https://qgis.org/en/site/forusers/download.html)  at least and [R](https://www.r-project.org/) installed in your computer. Then you have to install the plugin [Processing R provider](https://github.com/north-road/qgis-processing-r) from QGIS.  
 Once the Processing R provider plug in is set, you must load the [scripts](Scripts) into the R scripts folder for QGIS. The scripts will automatically be classified in different folders depending on the function.  
 

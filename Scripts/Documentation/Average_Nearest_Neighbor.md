@@ -16,4 +16,4 @@ The output will be a data frame with the columns:
 * *p.val:* The p-value.  
 
 
-[Go Back](../../Readme.md)
+[:back:](../../Readme.md)
