@@ -36,6 +36,7 @@ Once that everything is set up you will see a new icon in the processing toolbox
 * Ripleys K
 * Local Moran's I
 * [Hot Spot Analysis (Getis-Ord G*)](Scripts/Documentation/Hot_Spot_Analysis_Getis_Ord.md)
+* [Contiguity Neighbors](Scripts/Documentation/Contiguity_Neighbor.md)
 
 # Data Manipulation:
 
