@@ -24,7 +24,7 @@ In the options window you have to make sure that the R folder is set up where R 
 
 <img src="Scripts/Documentation/Images/Intro05.png" alt="Img05"/>
 
-Once that everything is set up you will see a new icon in the processing toolbox menu and also the new R scripts section. You have to copy the scripts on the R scripts folder and then you will be able to see them in the R section of the processing toolbox
+Once that everything is set up you will see a new icon in the processing toolbox menu and also the new R scripts section. You have to copy the scripts on the R scripts folder and then you will be able to see them in the R section of the processing toolbox. By default, the rsripts folder is located in the directory: `C:\Users\YourName\AppData\Roaming\QGIS\QGIS3\profiles\default\processing\rscripts` :+1:
 
 
 # Spatial Statistics Tools:
