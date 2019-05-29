@@ -42,6 +42,7 @@ Once that everything is set up you will see a new icon in the processing toolbox
 
 * [SMR](Scripts/Documentation/SMR.md)
 * [Probability Mapping Of Rates](Scripts/Documentation/Probability_Mapping_of_Rates.md)
+* [Local Empirical Bayes Estimator](Scripts/Documentation/Local_Empirical_Bayes_Estimator.md)
 
 # Data Manipulation:
 
