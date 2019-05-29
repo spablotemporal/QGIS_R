@@ -1,6 +1,6 @@
 # Introduction
 This is a set of R scripts for QGIS. must have [QGIS 3.4](https://qgis.org/en/site/forusers/download.html)  at least and [R](https://www.r-project.org/) installed in your computer. Then you have to install the plugin [Processing R provider](https://github.com/north-road/qgis-processing-r) from QGIS.  
-Once the Processing R provider plug in is set, you must load the [scripts](Scripts) into the R scripts folder for QGIS. The scripts will automatically be classified in different folders depending on the function.  
+Once the Processing R provider plug in is set, you must copy the [scripts](Scripts) into the R scripts folder for QGIS. The scripts will automatically be classified in different folders depending on the function.  
 
 ## Installation:
 To install the Processing R provider go to Plugins/Manage and install plugins...
@@ -37,6 +37,11 @@ Once that everything is set up you will see a new icon in the processing toolbox
 * Local Moran's I
 * [Hot Spot Analysis (Getis-Ord G*)](Scripts/Documentation/Hot_Spot_Analysis_Getis_Ord.md)
 * [Contiguity Neighbors](Scripts/Documentation/Contiguity_Neighbors.md)
+
+# Epi Tools:
+
+* [SMR](Scripts/Documentation/SMR.md)
+* [Probability Mapping Of Rates](Scripts/Documentation/Probability_Mapping_of_Rates.md)
 
 # Data Manipulation:
 
